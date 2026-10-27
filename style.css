@@ -1,0 +1,121 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  color: #f0e6d0;
+  line-height: 1.5;
+  background-color: #120d09;
+  background-image:
+    linear-gradient(rgba(18, 13, 9, 0.5), rgba(18, 13, 9, 0.8)),
+    url("1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+header {
+  background: rgba(18, 13, 9, 0.9);
+  padding: 12px 20px;
+  text-align: center;
+}
+.logo {
+  color: #e6b85c;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+nav {
+  margin-top: 8px;
+}
+nav a {
+  color: #f0e6d0;
+  margin: 0 8px;
+  white-space: nowrap;
+  display: inline-block;
+  text-decoration: none;
+}
+
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px 40px;
+}
+.hero {
+  padding: 60px 0 20px;
+}
+h1 {
+  font-size: 44px;
+  margin: 0 0 10px;
+}
+.kicker {
+  color: #e6b85c;
+  margin: 0;
+}
+.lead {
+  color: #d0c3a4;
+}
+
+
+.floor {
+  margin-top: 40px;
+}
+.floor h2 {
+  margin: 0 0 8px;
+  padding-bottom: 6px;
+  border-bottom: 2px solid currentColor;
+}
+.sub {
+  color: #d0c3a4;
+  margin: 0 0 12px;
+}
+
+.hotel { color: #e6b85c; }
+.mines { color: #e8894a; }
+.backdoor { color: #5aa7d9; }
+.archive { color: #9bb08a; }
+.stairwell { color: #c9605a; }
+.outdoors { color: #6cbf6a; }
+.architects { color: #b58cff; }
+.glitchfloor { color: #e05bd6; }
+
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 12px;
+}
+.card {
+  background: rgba(30, 22, 14, 0.9);
+  color: #f0e6d0;
+  border-left: 4px solid currentColor;
+  padding: 10px 15px;
+}
+.floor .card { border-left-color: inherit; }
+.card h3 {
+  margin: 0 0 4px;
+}
+.card p {
+  margin: 4px 0;
+  font-size: 15px;
+}
+
+
+.badge {
+  font-size: 14px;
+  font-weight: bold;
+}
+.low { color: #8fd07a; }
+.mid { color: #f0c04f; }
+.high { color: #ff7a6b; }
+
+
+footer {
+  background: rgba(18, 13, 9, 0.9);
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
+.card:hover{
+    box-shadow: 0px 0px 10px white;
+}
